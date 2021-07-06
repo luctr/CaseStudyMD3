@@ -2,7 +2,7 @@ package service;
 
 import java.util.List;
 
-public interface InterFace<T> {
+public interface GeneralService<T> {
     List<T> findAll();
     T findById(int id);
     List<T> findByName(String name);
